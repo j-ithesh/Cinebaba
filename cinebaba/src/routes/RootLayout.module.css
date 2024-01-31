@@ -1,0 +1,29 @@
+.Header{
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(29, 0, 29);
+    color:white;
+    padding: 1rem;
+}
+.NavList{
+    display: flex;
+    flex-direction: row;
+    grid-gap:1.5rem;
+    list-style: none;
+}
+.NavList a{
+    color: white;
+     text-decoration: none;
+}
+.Footer{
+  background-color: rgb(8, 8, 8);
+  padding:2rem 1rem;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

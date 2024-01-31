@@ -1,0 +1,30 @@
+.Tiers{
+    width: 100%;
+    max-width:640px;
+    list-style: none;
+}
+.selectSeatsMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 4rem;
+    
+}
+.screenDiv{
+    height: 4px;
+    border: 1px solid skyblue;
+     max-width: 320px;
+     width: 100%;
+}
+.ChekoutButton{
+    color: white;
+    background-color:rgb(196, 52, 76);
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+}
+.ChekoutButton:hover{
+    background-color:rgb(192, 82, 101);
+}

@@ -1,0 +1,49 @@
+.Main{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Summary{
+    padding: 1rem;
+    max-width: 540px;
+    width:100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;;
+
+}
+.Seats{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+    margin-top:1.5rem
+}
+.selectedSeats{
+   border-bottom: 1px solid #dbdbdb;
+}
+.selectedSeats h3{
+    font-size: 1rem;
+
+}
+.ConfirmButton{
+        color: white;
+        background-color:rgb(196, 52, 76);
+        padding: 0.5rem 1.5rem;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: all 0.2s ease-in;
+        margin-top: 1rem;
+}
+.ConfirmButton:hover{
+        background-color:rgb(192, 82, 101);
+ } 
+ .ConfirmationForm{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 0.5rem;
+    padding: 2rem 0;
+ }
+ .ConfirmationForm input{
+   padding: 0.5rem;
+ }
